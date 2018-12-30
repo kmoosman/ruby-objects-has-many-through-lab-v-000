@@ -21,19 +21,8 @@ class Patient
      appointments.map {|appointment| appointment.doctor}
   end
   
-  # def new_appointment(doctor, date)
-  #   Appointment.new(self, date, doctor)
-  # end
-  
   def new_appointment(doctor, date)
      Appointment.new(self, date, doctor)
   end
 
-  # def songs
-  #   Song.all.select {|song| song.genre == self}
-  # end
-  
-  # def artists
-  #   songs.map {|song| song.artist}
-  # end
 end
